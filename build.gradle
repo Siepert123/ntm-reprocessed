@@ -84,6 +84,8 @@ minecraft {
 
     // Add various JVM arguments here for runtime
     def args = ['-ea:' + group]
+    args << "-Xms128m"
+    args << "-Xmx2048m"
     if (propertyBool('use_mixins')) {
         args << '-Dmixin.hotSwap=true'
         args << '-Dmixin.checks.interfaces=true'
