@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "ntm:block/asphalt",
+        "top": "ntm:block/asphalt",
+        "side": "ntm:block/asphalt"
+    }
+}
