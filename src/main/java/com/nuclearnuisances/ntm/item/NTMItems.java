@@ -41,7 +41,7 @@ public class NTMItems {
     @SideOnly(Side.CLIENT)
     @SubscribeEvent
     public static void registerModel(ModelRegistryEvent event){
-        ITEMS.forEach(item->ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(item.getRegistryName(), "inventory")));
+        ITEMS.forEach(item -> ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(item.getRegistryName(), "inventory")));
     }
 
 }
